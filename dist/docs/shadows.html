@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shadows | Inertia Docs</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="../assets/img/favicon.ico">
+
+  <!-- Theme styles -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/theme.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/vendor.min.css">
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <link rel="stylesheet" type="text/css" href="../assets/vendor/aos/aos.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/pikaday/pikaday.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/jarallax/dist/jarallax.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/highlight/styles.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/swiper/swiper.css">
+  <link rel="stylesheet" type="text/css" href="../assets/vendor/atvImg/atvImg.css"> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_CODE_HERE"></script> -->
+  <!-- <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'YOUR_CODE_HERE');</script> -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top" role="navigation">
+  
+  
+    <div class="container-fluid">
+  
+      
+        <a class="navbar-brand" href="../index.html">
+      
+      
+
+      
+      
+        <svg width="181px" height="21px" viewBox="0 0 181 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path d="M0.43,20 L0.43,1.046 L4.075,1.046 L4.075,20 L0.43,20 Z M22.896,1.046 L26.514,1.046 L26.514,20.027 L25.677,20.27 L14.256,8.741 L14.256,20 L10.665,20 L10.665,1.019 L11.502,0.776 L22.896,12.305 L22.896,1.046 Z M36.479,16.922 L44.93,16.922 L44.93,20 L32.834,20 L32.834,1.046 L44.66,1.046 L44.66,4.124 L36.479,4.124 L36.479,8.849 L43.229,8.849 L43.229,11.927 L36.479,11.927 L36.479,16.922 Z M63.589,7.094 C63.589,9.578 62.023,11.549 60.241,12.44 L65.101,20 L60.673,20 L56.677,13.466 C55.867,13.547 55.057,13.574 54.139,13.493 L54.139,20 L50.494,20 L50.494,1.208 C59.458,-0.331 63.589,2.423 63.589,7.094 Z M54.139,4.232 L54.139,10.334 C58.108,10.739 59.836,9.254 59.836,7.04 C59.836,5.015 58,3.638 54.139,4.232 Z M82.194,1.046 L82.194,4.124 L76.875,4.124 L76.875,20 L73.23,20 L73.23,4.124 L67.938,4.124 L67.938,1.046 L82.194,1.046 Z M87.38,20 L87.38,1.046 L91.025,1.046 L91.025,20 L87.38,20 Z M99.775,20 L95.725,20 L104.5,0.857 L105.769,0.857 L114.49,20 L110.467,20 L109.036,16.922 L101.206,16.922 L99.775,20 Z M105.121,7.796 L102.502,13.898 L107.713,13.898 L105.121,7.796 Z" id="INERTIA" fill="#000000"></path>
+          <path d="M123.785,19 L123.785,4.321 C133.487,2.851 135.776,8.206 135.776,11.65 C135.776,14.968 133.34,20.323 123.785,19 Z M126.011,6.19 L126.011,17.089 C129.728,17.488 133.403,15.724 133.403,11.629 C133.403,8.206 130.82,5.602 126.011,6.19 Z M137.54,11.65 C137.54,7.366 140.795,3.964 145.268,3.964 C149.741,3.964 153.017,7.366 153.017,11.65 C153.017,15.913 149.741,19.294 145.268,19.294 C140.795,19.294 137.54,15.913 137.54,11.65 Z M139.913,11.65 C139.913,15.052 142.37,17.32 145.268,17.32 C148.145,17.32 150.644,15.052 150.644,11.65 C150.644,8.248 148.145,5.917 145.268,5.917 C142.37,5.917 139.913,8.248 139.913,11.65 Z M166.94,15.577 L168.284,17.026 C167.276,18.013 165.638,19.294 162.467,19.294 C158.12,19.294 154.802,15.955 154.802,11.608 C154.802,6.988 158.477,3.964 162.572,3.964 C165.491,3.964 167.192,5.245 168.179,6.127 L166.856,7.702 C166.016,6.925 164.525,5.917 162.614,5.917 C159.569,5.917 157.196,8.416 157.196,11.608 C157.196,14.695 159.401,17.32 162.635,17.32 C164.378,17.32 166.058,16.438 166.94,15.577 Z M179.498,5.098 L178.784,6.946 C177.902,6.463 176.537,5.938 175.424,5.938 C173.744,5.938 172.673,6.799 172.673,7.954 C172.673,9.235 174.017,9.949 175.76,10.6 C178.952,11.839 180.107,13.33 180.065,15.262 C180.002,17.845 177.692,19.315 174.962,19.294 C172.82,19.273 171.14,18.475 170.216,17.719 L171.098,16.018 C171.917,16.627 173.303,17.362 174.836,17.362 C176.453,17.362 177.86,16.543 177.86,15.304 C177.86,13.855 176.327,13.246 174.311,12.364 C171.917,11.314 170.447,10.117 170.447,7.954 C170.447,6.022 172.022,3.964 175.235,3.964 C176.789,3.964 178.637,4.636 179.498,5.098 Z" id="DOCS" fill="#576ADA"></path>
+        </svg>
+      
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    
+    
+      <div class="collapse navbar-collapse justify-content-center mt-2 mt-lg-0" id="navbar-collapse">
+        
+          <ul class="navbar-nav position-relative px-lg-6 px-xl-8">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Home pages
+              </a>
+              <div class="dropdown-menu pr-4" role="menu">
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-app.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,6 L19,6 C19.5522847,6 20,6.44771525 20,7 L20,17 L4,17 L4,7 C4,6.44771525 4.44771525,6 5,6 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="1" y="18" width="22" height="1" rx="0.5"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Web product
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-mobile.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z M8,1 L16,1 C17.5187831,1 18.75,2.23121694 18.75,3.75 L18.75,20.25 C18.75,21.7687831 17.5187831,23 16,23 L8,23 C6.48121694,23 5.25,21.7687831 5.25,20.25 L5.25,3.75 C5.25,2.23121694 6.48121694,1 8,1 Z M9.5,1.75 L14.5,1.75 C14.7761424,1.75 15,1.97385763 15,2.25 L15,3.25 C15,3.52614237 14.7761424,3.75 14.5,3.75 L9.5,3.75 C9.22385763,3.75 9,3.52614237 9,3.25 L9,2.25 C9,1.97385763 9.22385763,1.75 9.5,1.75 Z" fill="#000000" fill-rule="nonzero"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Mobile app
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-enterprise.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M14.5,11 C15.0522847,11 15.5,11.4477153 15.5,12 L15.5,15 C15.5,15.5522847 15.0522847,16 14.5,16 L9.5,16 C8.94771525,16 8.5,15.5522847 8.5,15 L8.5,12 C8.5,11.4477153 8.94771525,11 9.5,11 L9.5,10.5 C9.5,9.11928813 10.6192881,8 12,8 C13.3807119,8 14.5,9.11928813 14.5,10.5 L14.5,11 Z M12,9 C11.1715729,9 10.5,9.67157288 10.5,10.5 L10.5,11 L13.5,11 L13.5,10.5 C13.5,9.67157288 12.8284271,9 12,9 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Enterprise
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-agency.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                            <path d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z" fill="#000000" fill-rule="nonzero"></path>
+                            <path d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z" fill="#000000" opacity="0.3"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Creative agency
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M14.2330207,14.3666907 L16.3111786,18.8233147 C16.4278814,19.0735846 16.3196038,19.3710749 16.0693338,19.4877777 L14.2567182,20.3330142 C14.0064483,20.449717 13.708958,20.3414394 13.5922552,20.0911694 L11.4668267,15.5331733 L8.85355339,18.1464466 C8.7597852,18.2402148 8.63260824,18.2928932 8.5,18.2928932 C8.22385763,18.2928932 8,18.0690356 8,17.7928932 L8,5.13027585 C8,5.00589283 8.04636089,4.88597544 8.13002996,4.79393946 C8.31578343,4.58961065 8.63200759,4.57455235 8.8363364,4.76030582 L18.1424309,13.2203917 C18.2368163,13.3061967 18.2948385,13.424831 18.3046218,13.5520135 C18.3258009,13.8273425 18.1197718,14.0677099 17.8444428,14.088889 L14.2330207,14.3666907 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Online business
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-photography.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,7 L19,7 C20.1045695,7 21,7.8954305 21,9 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,9 C3,7.8954305 3.8954305,7 5,7 Z M12,17 C14.209139,17 16,15.209139 16,13 C16,10.790861 14.209139,9 12,9 C9.790861,9 8,10.790861 8,13 C8,15.209139 9.790861,17 12,17 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="9" y="4" width="6" height="2" rx="1"></rect>
+                            <circle fill="#000000" opacity="0.3" cx="12" cy="13" r="2"></circle>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Photographer
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-job.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5" height="2" rx="1"></rect>
+                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9" height="2" rx="1"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Jobs directory
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-portfolio.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z" fill="#000000" fill-rule="nonzero" transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000) "></path>
+                            <path d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z" fill="#000000" opacity="0.3"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Portfolio
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../index-event.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M12.9975507,17.929461 C12.9991745,17.9527631 13,17.9762852 13,18 L13,21 C13,21.5522847 12.5522847,22 12,22 C11.4477153,22 11,21.5522847 11,21 L11,18 C11,17.9762852 11.0008255,17.9527631 11.0024493,17.929461 C7.60896116,17.4452857 5,14.5273206 5,11 L7,11 C7,13.7614237 9.23857625,16 12,16 C14.7614237,16 17,13.7614237 17,11 L19,11 C19,14.5273206 16.3910388,17.4452857 12.9975507,17.929461 Z" fill="#000000" fill-rule="nonzero"></path>
+                            <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 8.000000) rotate(-360.000000) translate(-12.000000, -8.000000) " x="9" y="2" width="6" height="12" rx="3"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Conference
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../index-restaurant.html">
+                  <span class="svg-icon text-pastel-purple mr-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M7.6109127,15.767767 C8.001437,16.1582912 8.001437,16.7914562 7.6109127,17.1819805 L4.0753788,20.7175144 C3.68485451,21.1080387 3.05168953,21.1080387 2.66116524,20.7175144 L1.95405845,20.0104076 C1.56353416,19.6198833 1.56353416,18.9867184 1.95405845,18.5961941 L5.48959236,15.0606602 C5.88011665,14.6701359 6.51328163,14.6701359 6.90380592,15.0606602 L7.6109127,15.767767 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M18.5104076,2.03984489 C21.2440777,4.77351493 21.2440777,9.20566979 18.5104076,11.9393398 L12.8535534,17.5961941 L7.90380592,12.6464466 L18.5104076,2.03984489 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Restaurant
+                  </span>
+                </a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Blogs
+              </a>
+              <div class="dropdown-menu" role="menu">
+                <a class="dropdown-item" href="../blog-list.html">Single list</a>
+                <a class="dropdown-item" href="../blog-cols.html">Columns</a>
+                <a class="dropdown-item" href="../blog-grid.html">Grid</a>
+                <a class="dropdown-item" href="../blog-sidebar.html">With sidebar</a>
+                <a class="dropdown-item" href="../blog-timeline.html">Timeline</a>
+                <a class="dropdown-item" href="../blog-post.html">Blog post</a>
+                <a class="dropdown-item" href="../blog-post-alt.html">Blog post alt</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Pages
+              </a>
+              <div class="dropdown-menu" role="menu">
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Account <span class="badge bg-pastel-success text-success font-weight-bold pt-2 ml-1">NEW</span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../account-general.html">General</a>
+                    <a class="dropdown-item" href="../account-notifications.html">Notifications</a>
+                    <a class="dropdown-item" href="../account-billing.html">Billing & Payments</a>
+                    <a class="dropdown-item" href="../account-teammates.html">Teammates</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    About us
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../about.html">About us</a>
+                    <a class="dropdown-item" href="../about-alt.html">About us alt</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Contact
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../contact.html">Contact us</a>
+                    <a class="dropdown-item" href="../contact-alt.html">Contact us alt</a>
+                    <a class="dropdown-item" href="../contact-project.html">Contact us project</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Pricing
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../pricing-charts.html">Pricing charts</a>
+                    <a class="dropdown-item" href="../comparison-charts.html">Comparison charts</a>
+                    <a class="dropdown-item" href="../pricing-plans.html">Pricing plans</a>
+                  </div>
+                </div>
+                <a class="dropdown-item" href="../careers.html">Careers</a>
+                <a class="dropdown-item" href="../career-post.html">Careers job post</a>
+                <a class="dropdown-item" href="../customers.html">Customer stories</a>
+                <a class="dropdown-item" href="../customer-story.html">Customer story article</a>
+                <a class="dropdown-item" href="../support.html">Support</a>
+                <a class="dropdown-item" href="../support-topic.html">Support article</a>
+                <a class="dropdown-item" href="../project-showcase.html">Project showcase</a>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Sign up
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../sign-up.html">Basic</a>
+                    <a class="dropdown-item" href="../sign-up-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../sign-up-cover.html">Side cover</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Sign in
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../sign-in.html">Basic</a>
+                    <a class="dropdown-item" href="../sign-in-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../sign-in-cover.html">Side cover</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Recover password
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../recover-password.html">Basic</a>
+                    <a class="dropdown-item" href="../recover-password-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../recover-password-cover.html">Side cover</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown position-lg-static">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Ecommerce
+              </a>
+              <div class="dropdown-menu w-100 pl-lg-4 pr-lg-5 py-lg-4" role="menu">
+                <div class="row">
+                  <div class="col-5 col-md-3">
+                    <p class="dropdown-item d-none d-md-block text-uppercase font-size-sm font-weight-bold text-purple mb-2">
+                      Women's Clothing
+                    </p>
+                    <a class="dropdown-item" href="../ecommerce/index.html">Home page</a>
+                    <a class="dropdown-item" href="../ecommerce/collection-grid.html">Collection grid</a>
+                    <a class="dropdown-item" href="../ecommerce/collection-list.html">Collection list</a>
+                    <a class="dropdown-item" href="../ecommerce/collection-grid-sidebar.html">Grid with sidebar</a>
+                    <a class="dropdown-item" href="../ecommerce/collection-list-sidebar.html">List with sidebar</a>
+                    <a class="dropdown-item" href="../ecommerce/product.html">Single product</a>
+                    <a class="dropdown-item" href="../ecommerce/cart.html">Cart</a>
+                    <a class="dropdown-item" href="../ecommerce/search.html">Search</a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <p class="dropdown-item d-none d-md-block text-uppercase font-size-sm font-weight-bold text-purple mb-2">
+                      New collection
+                    </p>
+                    <a class="dropdown-item" href="../ecommerce/checkout.html">Checkout</a>
+                    <a class="dropdown-item" href="../ecommerce/checkout-payment.html">Shipment & Payment</a>
+                    <a class="dropdown-item" href="../ecommerce/checkout-confirmation.html">Confirmation</a>
+                    <a class="dropdown-item" href="../ecommerce/account.html">Account</a>
+                    <a class="dropdown-item" href="../ecommerce/account-invoice.html">Invoice</a>
+                    <a class="dropdown-item" href="../ecommerce/sign-up.html">Sign up</a>
+                    <a class="dropdown-item" href="../ecommerce/sign-in.html">Sign in</a>
+                    <a class="dropdown-item" href="../ecommerce/recover-password.html">Recover password</a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <a href="../ecommerce/collection-grid.html" class="text-decoration-none mt-4 d-block text-center">
+                      <img src="../assets/img/ecommerce/b-5.jpeg" class="img-fluid hover-lift-light rounded" alt="">
+                      <div class="font-size-sm mt-2 text-dark">Back in Stock</div>
+                      <div class="font-merriweather font-size-xs text-gray-600 mt-1 font-italic">Shop the Collection</div>
+                    </a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <a href="../ecommerce/collection-grid.html" class="text-decoration-none mt-4 d-block text-center">
+                      <img src="../assets/img/ecommerce/b-6.jpeg" class="img-fluid hover-lift-light rounded" alt="">
+                      <div class="font-size-sm mt-2 text-dark">Autumn vibe</div>
+                      <div class="font-merriweather font-size-xs text-gray-600 mt-1 font-italic">Our beautiful jeans</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../rtl/index.html">RTL Version</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Theme docs
+              </a>
+              <div class="dropdown-menu px-4" role="menu">
+                <a class="dropdown-item d-flex align-items-center border-bottom border-gray-100 p-2" href="../docs/index.html">
+                  <span class="svg-icon text-purple mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-m</title><path d="M160,389a20.91,20.91,0,0,1-13.82-5.2l-128-112a21,21,0,0,1,0-31.6l128-112a21,21,0,0,1,27.66,31.61L63.89,256l109.94,96.19A21,21,0,0,1,160,389Z"/><path d="M352,389a21,21,0,0,1-13.84-36.81L448.11,256,338.17,159.81a21,21,0,0,1,27.66-31.61l128,112a21,21,0,0,1,0,31.6l-128,112A20.89,20.89,0,0,1,352,389Z"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Documentation</p>
+                    <span class="text-secondary">Setup and customization</span>
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center border-bottom border-gray-100 p-2" href="../docs/changelog.html">
+                  <span class="svg-icon text-purple mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-j</title><path d="M256,256s-48-96-126-96c-54.12,0-98,43-98,96s43.88,96,98,96c30,0,56.45-13.18,78-32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/><path d="M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-29.37,0-56.66,13.75-78,32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Changelog</p>
+                    <span class="text-secondary">See all updates</span>
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center p-2" href="mailto:support@cedarthemes.com">
+                  <span class="svg-icon text-purple mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><path d="M256,80A176,176,0,1,0,432,256,176,176,0,0,0,256,80Z" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"/><path d="M200,202.29s.84-17.5,19.57-32.57C230.68,160.77,244,158.18,256,158c10.93-.14,20.69,1.67,26.53,4.45,10,4.76,29.47,16.38,29.47,41.09,0,26-17,37.81-36.37,50.8S251,281.43,251,296" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px"/><circle cx="250" cy="348" r="20"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Support</p>
+                    <span class="text-secondary">Get help when needed</span>
+                  </span>
+                </a>
+              </div>
+            </li>
+
+          
+            <li class="nav-item ml-lg-3 mt-3 mt-lg-0">
+              <a class="btn btn-sm btn-primary hover-lift-light mt-1" href="https://ui8.net/ui8/products/inertia" target="_blank">
+                Buy now
+              </a>
+            </li>
+          
+          </ul>
+        
+        
+    
+      </div> <!-- end .navbar-collapse -->
+
+    </div> <!-- end .container -->
+  </nav>
+
+  <div class="container-fluid container-docs">
+    <div class="row">
+      <div class="col-12 col-lg-3 col-xl-2 border-right py-lg-5 pl-lg-4 docs-sidebar docs-sidebar-left">
+        <div class="row d-lg-none py-2 mb-4 bg-dark">
+          <div class="col-auto">
+            <div class="navbar-dark">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#sidebar-collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="collapse d-lg-block mb-6 mb-lg-0" id="sidebar-collapse">
+          <div class="text-darkblue text-uppercase font-size-sm font-weight-bolder mb-2">
+            <span class="svg-icon text-purple mr-1 relative-top--1">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect>
+                      <path d="M13.6855025,18.7082217 C15.9113859,17.8189707 18.682885,17.2495635 22,17 C22,16.9325178 22,13.1012863 22,5.50630526 L21.9999762,5.50630526 C21.9999762,5.23017604 21.7761292,5.00632908 21.5,5.00632908 C21.4957817,5.00632908 21.4915635,5.00638247 21.4873465,5.00648922 C18.658231,5.07811173 15.8291155,5.74261533 13,7 C13,7.04449645 13,10.79246 13,18.2438906 L12.9999854,18.2438906 C12.9999854,18.520041 13.2238496,18.7439052 13.5,18.7439052 C13.5635398,18.7439052 13.6264972,18.7317946 13.6855025,18.7082217 Z" fill="#000000"></path>
+                      <path d="M10.3144829,18.7082217 C8.08859955,17.8189707 5.31710038,17.2495635 1.99998542,17 C1.99998542,16.9325178 1.99998542,13.1012863 1.99998542,5.50630526 L2.00000925,5.50630526 C2.00000925,5.23017604 2.22385621,5.00632908 2.49998542,5.00632908 C2.50420375,5.00632908 2.5084219,5.00638247 2.51263888,5.00648922 C5.34175439,5.07811173 8.17086991,5.74261533 10.9999854,7 C10.9999854,7.04449645 10.9999854,10.79246 10.9999854,18.2438906 L11,18.2438906 C11,18.520041 10.7761358,18.7439052 10.4999854,18.7439052 C10.4364457,18.7439052 10.3734882,18.7317946 10.3144829,18.7082217 Z" fill="#000000" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </span>
+            Introduction
+          </div>
+          <ul class="list-unstyled mt-3">
+            <li><a href="index.html" class="text-darkblue font-size-sm d-block mb-2">Getting started</a></li>
+            <li><a href="changelog.html" class="text-darkblue font-size-sm d-block mb-2">Changelog</a></li>
+          </ul>
+          <div class="text-darkblue text-uppercase font-size-sm font-weight-bolder mt-4 pt-2 mb-2">
+            <span class="svg-icon text-purple mr-1 relative-top--1">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect>
+                      <path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000"></path>
+                      <path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </span>
+            Components
+          </div>
+          <ul class="list-unstyled mt-3">
+            <li><a href="alerts.html" class="text-darkblue font-size-sm d-block mb-2">Alerts</a></li>
+            <li><a href="avatars.html" class="text-darkblue font-size-sm d-block mb-2">Avatars</a></li>
+            <li><a href="badges.html" class="text-darkblue font-size-sm d-block mb-2">Badges</a></li>
+            <li><a href="buttons.html" class="text-darkblue font-size-sm d-block mb-2">Buttons</a></li>
+            <li><a href="cards.html" class="text-darkblue font-size-sm d-block mb-2">Cards</a></li>
+            <li><a href="dropdowns.html" class="text-darkblue font-size-sm d-block mb-2">Dropdowns</a></li>
+            <li><a href="forms.html" class="text-darkblue font-size-sm d-block mb-2">Forms</a></li>
+            <li><a href="icons.html" class="text-darkblue font-size-sm d-block mb-2">Icons</a></li>
+            <li><a href="modals.html" class="text-darkblue font-size-sm d-block mb-2">Modals</a></li>
+            <li><a href="navs.html" class="text-darkblue font-size-sm d-block mb-2">Navs</a></li>
+            <li><a href="navbar.html" class="text-darkblue font-size-sm d-block mb-2">Navbar</a></li>
+            <li><a href="progress.html" class="text-darkblue font-size-sm d-block mb-2">Progress bars</a></li>
+            <li><a href="stats-cards.html" class="text-darkblue font-size-sm d-block mb-2">Stats cards</a></li>
+            <li><a href="tables.html" class="text-darkblue font-size-sm d-block mb-2">Tables</a></li>
+            <li><a href="timeline.html" class="text-darkblue font-size-sm d-block mb-2">Timeline</a></li>
+          </ul>
+          <div class="text-darkblue text-uppercase font-size-sm font-weight-bolder mt-4 pt-2 mb-2">
+            <span class="svg-icon text-purple mr-1 relative-top--2">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect>
+                      <path d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z" fill="#000000" fill-rule="nonzero"></path>
+                      <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) " x="11" y="4" width="2" height="16" rx="1"></rect>
+                  </g>
+              </svg>
+            </span>
+            Utilities
+          </div>
+          <ul class="list-unstyled mt-3">
+            <li><a href="background.html" class="text-darkblue font-size-sm d-block mb-2">Background</a></li>
+            <li><a href="borders.html" class="text-darkblue font-size-sm d-block mb-2">Borders</a></li>
+            <li><a href="hover.html" class="text-darkblue font-size-sm d-block mb-2">Hover</a></li>
+            <li><a href="opacity.html" class="text-darkblue font-size-sm d-block mb-2">Opacity</a></li>
+            <li><a href="overlay.html" class="text-darkblue font-size-sm d-block mb-2">Overlay</a></li>
+            <li><a href="position.html" class="text-darkblue font-size-sm d-block mb-2">Position</a></li>
+            <li><a href="shadows.html" class="text-darkblue font-size-sm d-block mb-2">Shadows</a></li>
+            <li><a href="sizing.html" class="text-darkblue font-size-sm d-block mb-2">Sizing</a></li>
+            <li><a href="text.html" class="text-darkblue font-size-sm d-block mb-2">Text</a></li>
+            <li><a href="transform.html" class="text-darkblue font-size-sm d-block mb-2">Transform</a></li>
+          </ul>
+          <div class="text-darkblue text-uppercase font-size-sm font-weight-bolder mt-4 pt-2 mb-2">
+            <span class="svg-icon text-purple mr-1 relative-top--3">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect>
+                      <path d="M19,11 L20,11 C21.6568542,11 23,12.3431458 23,14 C23,15.6568542 21.6568542,17 20,17 L19,17 L19,20 C19,21.1045695 18.1045695,22 17,22 L5,22 C3.8954305,22 3,21.1045695 3,20 L3,17 L5,17 C6.65685425,17 8,15.6568542 8,14 C8,12.3431458 6.65685425,11 5,11 L3,11 L3,8 C3,6.8954305 3.8954305,6 5,6 L8,6 L8,5 C8,3.34314575 9.34314575,2 11,2 C12.6568542,2 14,3.34314575 14,5 L14,6 L17,6 C18.1045695,6 19,6.8954305 19,8 L19,11 Z" fill="#000000" opacity="0.3"></path>
+                  </g>
+              </svg>
+            </span>
+            Plugins
+          </div>
+          <ul class="list-unstyled mt-3">
+            <li><a href="aos.html" class="text-darkblue font-size-sm d-block mb-2">AOS</a></li>
+            <li><a href="atvImg.html" class="text-darkblue font-size-sm d-block mb-2">atvImg</a></li>
+            <li><a href="fancybox.html" class="text-darkblue font-size-sm d-block mb-2">Fancybox</a></li>
+            <li><a href="jarallax.html" class="text-darkblue font-size-sm d-block mb-2">Jarallax</a></li>
+            <li><a href="pikaday.html" class="text-darkblue font-size-sm d-block mb-2">Pikaday</a></li>
+            <li><a href="scroll.html" class="text-darkblue font-size-sm d-block mb-2">Smooth scroll</a></li>
+            <li><a href="swiper.html" class="text-darkblue font-size-sm d-block mb-2">Swiper</a></li>
+            <li><a href="zoomerang.html" class="text-darkblue font-size-sm d-block mb-2">Zoomerang</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-lg-9 col-xl-8 offset-lg-3 offset-xl-2 py-lg-5 px-lg-6">
+        <h3 class="text-darkblue">
+          Shadows
+        </h3>
+        <a href="https://getbootstrap.com/docs/4.4/utilities/shadows/" class="text-purple" target="_blank">See Bootstrap docs <i class="fas fa-external-link-alt font-size-xs ml-1"></i></a>
+
+        <div class="card border border-gray-100 mt-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="shadow-light-sm rounded p-4 bg-white mb-5">Shadow light small</div>
+                <div class="shadow-light rounded p-4 bg-white mb-5">Shadow light regular</div>
+                <div class="shadow-light-lg rounded p-4 bg-white mb-5">Shadow light large</div>
+              </div>
+              <div class="col-lg-6">
+                <div class="shadow-sm rounded p-4 bg-white mb-5">Shadow small</div>
+                <div class="shadow rounded p-4 bg-white mb-5">Shadow regular</div>
+                <div class="shadow-lg rounded p-4 bg-white mb-5">Shadow large</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-dark">
+            <code class="hl html">
+              &lt;div class="shadow-light-sm">&lt;/div><br>
+              &lt;div class="shadow-light">&lt;/div><br>
+              &lt;div class="shadow-light-lg">&lt;/div><br>
+              &lt;div class="shadow-sm">&lt;/div><br>
+              &lt;div class="shadow">&lt;/div><br>
+              &lt;div class="shadow-lg">&lt;/div>
+            </code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT
+  ============================================-->
+
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <script src="../assets/js/vendor.min.js"></script>
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="../assets/vendor/pikaday/pikaday.js"></script>
+  <script src="../assets/vendor/jquery.elevateZoom/jquery.elevateZoom.min.js"></script>
+  <script src="../assets/vendor/smooth-scroll/smooth-scroll.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="../assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+  <script src="../assets/vendor/jarallax/dist/jarallax-element.min.js"></script>
+  <script src="../assets/vendor/zoomerang/zoomerang.js"></script>
+  <script src="../assets/vendor/swiper/swiper.min.js"></script>
+  <script src="../assets/vendor/highlight/highlight.min.js"></script>
+  <script src="../assets/vendor/atvImg/atvImg-min.js"></script> -->
+
+
+  <!-- Main Theme file -->
+  <script src="../assets/js/theme.min.js"></script>
+
+</body>
+</html>

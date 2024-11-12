@@ -1,0 +1,1216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Collection list sidebar | Inertia</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="../../assets/img/favicon.ico">
+
+  <!-- Theme styles -->
+  <link rel="stylesheet" type="text/css" href="../../assets/css/theme.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <link rel="stylesheet" type="text/css" href="../../assets/css/vendor.min.css">
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <link rel="stylesheet" type="text/css" href="../../assets/vendor/aos/aos.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/pikaday/pikaday.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/jarallax/dist/jarallax.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/highlight/styles.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/swiper/swiper.css">
+  <link rel="stylesheet" type="text/css" href="../../assets/vendor/atvImg/atvImg.css"> -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_CODE_HERE"></script> -->
+  <!-- <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'YOUR_CODE_HERE');</script> -->
+</head>
+
+<body class="rtl">
+  <!-- Announcement -->
+  <div class="bg-pistachio py-2" data-aos="slide-down" data-aos-duration="1000" data-aos-easing="ease-in-out-cubic">
+    <div class="container text-center text-dark font-size-sm">
+      FREE shipping on all orders above $100!
+    </div>
+  </div>
+
+  <!-- Navbar ecommerce -->
+  <section class="shadow-light-sm bg-white pt-4">
+    <nav class="navbar-ecommerce">
+      <div class="container-fluid px-lg-6">
+        <div class="row align-items-center justify-content-center">
+          <!-- Change currency -->
+          <div class="col-auto col-lg-3 order-1 order-lg-0">
+            <div class="dropdown text-right">
+              <a href="#!" class="text-dark font-size-sm dropdown-toggle" data-toggle="dropdown">
+                USD
+              </a>
+              <div class="dropdown-menu dropdown-menu-right shadow" role="menu">
+                <a href="#" class="dropdown-item text-dark">USD</a>
+                <a href="#" class="dropdown-item text-dark">CAD</a>
+                <a href="#" class="dropdown-item text-dark">EUR</a>
+                <a href="#" class="dropdown-item text-dark">GBP</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Brand -->
+          <div class="col-lg-6 text-lg-center mb-3 mt-2">
+            <a href="index.html" class="h2 text-decoration-none text-uppercase letter-spacing-lg text-dark">
+              Inertia Store
+            </a>
+            <div class="navbar-light float-right d-lg-none relative-top--9">
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right menu -->
+          <div class="col-auto col-lg-3 order-2 d-flex justify-content-end">
+            <!-- My cart -->
+            <div class="dropdown">
+              <a href="#!" class="dropdown-toggle text-dark font-size-sm text-decoration-none" data-toggle="dropdown">
+                My cart (3)
+              </a>
+
+              <!-- Cart dropdown -->
+              <div class="dropdown-menu text-right w-350 w-md-400 shadow p-4" role="menu">
+                <div class="d-flex border-bottom py-2">
+                  <a href="#">
+                    <img src="../../assets/img/ecommerce/product-1.jpg" style="width: 80px;" alt="">
+                  </a>
+                  <div class="flex-1 mt-3 mr-3">
+                    <a href="#" class="text-dark">
+                      2x  Blue Elegant Pull-over Shirt
+                    </a>
+                    <div class="h6 mt-1">$119</div>
+                  </div>
+                </div>
+
+                <div class="d-flex border-bottom py-2">
+                  <a href="#">
+                    <img src="../../assets/img/ecommerce/product-2.jpg" style="width: 80px;" alt="">
+                  </a>
+                  <div class="flex-1 mt-3 mr-3">
+                    <a href="#" class="text-dark">
+                      2x  Long-sleeve Shirt for Men
+                    </a>
+                    <div class="h6 mt-1">$79</div>
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <span class="mr-3">Subtotal</span>
+                  <span class="h5">$1,450 USD</span>
+                </div>
+
+                <div class="text-right mt-4">
+                  <a href="cart.html" class="btn btn-light font-size-sm ml-3">
+                    View cart
+                  </a>
+                  <a href="checkout.html" class="btn btn-dark font-size-sm">
+                    Checkout
+                    <i class="fas fa-chevron-left fa-xs mr-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Account -->
+            <div class="mr-3 mr-lg-4">
+              <a href="account.html" class="text-dark font-size-sm">
+                <span class="avatar avatar-sm relative-top--3 d-none d-xl-inline-block mr-1">
+                  <img src="../../assets/img/uifaces/12.jpg" class="avatar-image rounded-circle" alt="">
+                </span>
+                Account
+              </a>
+            </div>
+
+            <!-- Search -->
+            <div class="mr-3 mr-lg-4">
+              <a href="search.html" class="text-dark">
+                <i class="fa fa-search fa-sm"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3" role="navigation">
+      <div class="container-fluid container-lg position-relative">
+        <div class="collapse navbar-collapse justify-content-center" id="navbar-collapse">
+          <ul class="navbar-nav text-right p-0 ">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Home pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right pl-4" role="menu">
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-app.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,6 L19,6 C19.5522847,6 20,6.44771525 20,7 L20,17 L4,17 L4,7 C4,6.44771525 4.44771525,6 5,6 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="1" y="18" width="22" height="1" rx="0.5"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Web product
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-mobile.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z M8,1 L16,1 C17.5187831,1 18.75,2.23121694 18.75,3.75 L18.75,20.25 C18.75,21.7687831 17.5187831,23 16,23 L8,23 C6.48121694,23 5.25,21.7687831 5.25,20.25 L5.25,3.75 C5.25,2.23121694 6.48121694,1 8,1 Z M9.5,1.75 L14.5,1.75 C14.7761424,1.75 15,1.97385763 15,2.25 L15,3.25 C15,3.52614237 14.7761424,3.75 14.5,3.75 L9.5,3.75 C9.22385763,3.75 9,3.52614237 9,3.25 L9,2.25 C9,1.97385763 9.22385763,1.75 9.5,1.75 Z" fill="#000000" fill-rule="nonzero"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Mobile app
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-enterprise.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M14.5,11 C15.0522847,11 15.5,11.4477153 15.5,12 L15.5,15 C15.5,15.5522847 15.0522847,16 14.5,16 L9.5,16 C8.94771525,16 8.5,15.5522847 8.5,15 L8.5,12 C8.5,11.4477153 8.94771525,11 9.5,11 L9.5,10.5 C9.5,9.11928813 10.6192881,8 12,8 C13.3807119,8 14.5,9.11928813 14.5,10.5 L14.5,11 Z M12,9 C11.1715729,9 10.5,9.67157288 10.5,10.5 L10.5,11 L13.5,11 L13.5,10.5 C13.5,9.67157288 12.8284271,9 12,9 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Enterprise
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-agency.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <polygon points="0 0 24 0 24 24 0 24"></polygon>
+                            <path d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z" fill="#000000" fill-rule="nonzero"></path>
+                            <path d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z" fill="#000000" opacity="0.3"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Creative agency
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M14.2330207,14.3666907 L16.3111786,18.8233147 C16.4278814,19.0735846 16.3196038,19.3710749 16.0693338,19.4877777 L14.2567182,20.3330142 C14.0064483,20.449717 13.708958,20.3414394 13.5922552,20.0911694 L11.4668267,15.5331733 L8.85355339,18.1464466 C8.7597852,18.2402148 8.63260824,18.2928932 8.5,18.2928932 C8.22385763,18.2928932 8,18.0690356 8,17.7928932 L8,5.13027585 C8,5.00589283 8.04636089,4.88597544 8.13002996,4.79393946 C8.31578343,4.58961065 8.63200759,4.57455235 8.8363364,4.76030582 L18.1424309,13.2203917 C18.2368163,13.3061967 18.2948385,13.424831 18.3046218,13.5520135 C18.3258009,13.8273425 18.1197718,14.0677099 17.8444428,14.088889 L14.2330207,14.3666907 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Online business
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-photography.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,7 L19,7 C20.1045695,7 21,7.8954305 21,9 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,9 C3,7.8954305 3.8954305,7 5,7 Z M12,17 C14.209139,17 16,15.209139 16,13 C16,10.790861 14.209139,9 12,9 C9.790861,9 8,10.790861 8,13 C8,15.209139 9.790861,17 12,17 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="9" y="4" width="6" height="2" rx="1"></rect>
+                            <circle fill="#000000" opacity="0.3" cx="12" cy="13" r="2"></circle>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Photographer
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-job.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" fill="#000000"></path>
+                            <rect fill="#000000" opacity="0.3" x="7" y="10" width="5" height="2" rx="1"></rect>
+                            <rect fill="#000000" opacity="0.3" x="7" y="14" width="9" height="2" rx="1"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Jobs directory
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-portfolio.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M5,5 L5,15 C5,15.5948613 5.25970314,16.1290656 5.6719139,16.4954176 C5.71978107,16.5379595 5.76682388,16.5788906 5.81365532,16.6178662 C5.82524933,16.6294602 15,7.45470952 15,7.45470952 C15,6.9962515 15,6.17801499 15,5 L5,5 Z M5,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,15 C17,17.209139 15.209139,19 13,19 L7,19 C4.790861,19 3,17.209139 3,15 L3,5 C3,3.8954305 3.8954305,3 5,3 Z" fill="#000000" fill-rule="nonzero" transform="translate(10.000000, 11.000000) rotate(-315.000000) translate(-10.000000, -11.000000) "></path>
+                            <path d="M20,22 C21.6568542,22 23,20.6568542 23,19 C23,17.8954305 22,16.2287638 20,14 C18,16.2287638 17,17.8954305 17,19 C17,20.6568542 18.3431458,22 20,22 Z" fill="#000000" opacity="0.3"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Portfolio
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center mb-2" href="../../rtl/index-event.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M12.9975507,17.929461 C12.9991745,17.9527631 13,17.9762852 13,18 L13,21 C13,21.5522847 12.5522847,22 12,22 C11.4477153,22 11,21.5522847 11,21 L11,18 C11,17.9762852 11.0008255,17.9527631 11.0024493,17.929461 C7.60896116,17.4452857 5,14.5273206 5,11 L7,11 C7,13.7614237 9.23857625,16 12,16 C14.7614237,16 17,13.7614237 17,11 L19,11 C19,14.5273206 16.3910388,17.4452857 12.9975507,17.929461 Z" fill="#000000" fill-rule="nonzero"></path>
+                            <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 8.000000) rotate(-360.000000) translate(-12.000000, -8.000000) " x="9" y="2" width="6" height="12" rx="3"></rect>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Conference
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="../../rtl/index-restaurant.html">
+                  <span class="svg-icon text-pastel-purple ml-3">
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <rect x="0" y="0" width="24" height="24"></rect>
+                            <path d="M7.6109127,15.767767 C8.001437,16.1582912 8.001437,16.7914562 7.6109127,17.1819805 L4.0753788,20.7175144 C3.68485451,21.1080387 3.05168953,21.1080387 2.66116524,20.7175144 L1.95405845,20.0104076 C1.56353416,19.6198833 1.56353416,18.9867184 1.95405845,18.5961941 L5.48959236,15.0606602 C5.88011665,14.6701359 6.51328163,14.6701359 6.90380592,15.0606602 L7.6109127,15.767767 Z" fill="#000000" opacity="0.3"></path>
+                            <path d="M18.5104076,2.03984489 C21.2440777,4.77351493 21.2440777,9.20566979 18.5104076,11.9393398 L12.8535534,17.5961941 L7.90380592,12.6464466 L18.5104076,2.03984489 Z" fill="#000000"></path>
+                        </g>
+                    </svg>
+                  </span>
+                  <span class="text-uppercase font-size-sm text-darkblue font-weight-bold">
+                    Restaurant
+                  </span>
+                </a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Blogs
+              </a>
+              <div class="dropdown-menu dropdown-menu-right text-right" role="menu">
+                <a class="dropdown-item" href="../../rtl/blog-list.html">Single list</a>
+                <a class="dropdown-item" href="../../rtl/blog-cols.html">Columns</a>
+                <a class="dropdown-item" href="../../rtl/blog-grid.html">Grid</a>
+                <a class="dropdown-item" href="../../rtl/blog-sidebar.html">With sidebar</a>
+                <a class="dropdown-item" href="../../rtl/blog-timeline.html">Timeline</a>
+                <a class="dropdown-item" href="../../rtl/blog-post.html">Blog post</a>
+                <a class="dropdown-item" href="../../rtl/blog-post-alt.html">Blog post alt</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right text-right" role="menu">
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Account
+                    <span class="badge bg-pastel-success text-success font-weight-bold pt-2 mr-1">NEW</span>
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/account-general.html">General</a>
+                    <a class="dropdown-item" href="../../rtl/account-notifications.html">Notifications</a>
+                    <a class="dropdown-item" href="../../rtl/account-billing.html">Billing & Payments</a>
+                    <a class="dropdown-item" href="../../rtl/account-teammates.html">Teammates</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    About us
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/about.html">About us</a>
+                    <a class="dropdown-item" href="../../rtl/about-alt.html">About us alt</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Contact
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/contact.html">Contact us</a>
+                    <a class="dropdown-item" href="../../rtl/contact-alt.html">Contact us alt</a>
+                    <a class="dropdown-item" href="../../rtl/contact-project.html">Contact us project</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Pricing
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/pricing-charts.html">Pricing charts</a>
+                    <a class="dropdown-item" href="../../rtl/comparison-charts.html">Comparison charts</a>
+                    <a class="dropdown-item" href="../../rtl/pricing-plans.html">Pricing plans</a>
+                  </div>
+                </div>
+                <a class="dropdown-item" href="../../rtl/careers.html">Careers</a>
+                <a class="dropdown-item" href="../../rtl/career-post.html">Careers job post</a>
+                <a class="dropdown-item" href="../../rtl/customers.html">Customer stories</a>
+                <a class="dropdown-item" href="../../rtl/customer-story.html">Customer story article</a>
+                <a class="dropdown-item" href="../../rtl/support.html">Support</a>
+                <a class="dropdown-item" href="../../rtl/support-topic.html">Support article</a>
+                <a class="dropdown-item" href="../../rtl/project-showcase.html">Project showcase</a>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Sign up
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/sign-up.html">Basic</a>
+                    <a class="dropdown-item" href="../../rtl/sign-up-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../../rtl/sign-up-cover.html">Side cover</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Sign in
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/sign-in.html">Basic</a>
+                    <a class="dropdown-item" href="../../rtl/sign-in-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../../rtl/sign-in-cover.html">Side cover</a>
+                  </div>
+                </div>
+                <div class="dropdown dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                    Recover password
+                  </a>
+                  <div class="dropdown-menu text-right">
+                    <a class="dropdown-item" href="../../rtl/recover-password.html">Basic</a>
+                    <a class="dropdown-item" href="../../rtl/recover-password-quote.html">Side quote</a>
+                    <a class="dropdown-item" href="../../rtl/recover-password-cover.html">Side cover</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown position-lg-static">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Ecommerce
+              </a>
+              <div class="dropdown-menu text-right w-100 pl-lg-4 pr-lg-5 py-lg-4" role="menu">
+                <div class="row">
+                  <div class="col-5 col-md-3">
+                    <p class="dropdown-item d-none d-md-block text-uppercase font-size-sm font-weight-bold text-purple mb-2">
+                      Women's Clothing
+                    </p>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/index.html">Home page</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/collection-grid.html">Collection grid</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/collection-list.html">Collection list</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/collection-grid-sidebar.html">Grid with sidebar</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/collection-list-sidebar.html">List with sidebar</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/product.html">Single product</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/cart.html">Cart</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/search.html">Search</a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <p class="dropdown-item d-none d-md-block text-uppercase font-size-sm font-weight-bold text-purple mb-2">
+                      New collection
+                    </p>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/checkout.html">Checkout</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/checkout-payment.html">Shipment & Payment</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/checkout-confirmation.html">Confirmation</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/account.html">Account</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/account-invoice.html">Invoice</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/sign-up.html">Sign up</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/sign-in.html">Sign in</a>
+                    <a class="dropdown-item" href="../../rtl/ecommerce/recover-password.html">Recover password</a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <a href="../../rtl/ecommerce/collection-grid.html" class="text-decoration-none mt-4 d-block text-center">
+                      <img src="../../assets/img/ecommerce/b-5.jpeg" class="img-fluid hover-lift-light rounded" alt="">
+                      <div class="font-size-sm mt-2 text-dark">Back in Stock</div>
+                      <div class="font-merriweather font-size-xs text-gray-600 mt-1 font-italic">Shop the Collection</div>
+                    </a>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <a href="../../rtl/ecommerce/collection-grid.html" class="text-decoration-none mt-4 d-block text-center">
+                      <img src="../../assets/img/ecommerce/b-6.jpeg" class="img-fluid hover-lift-light rounded" alt="">
+                      <div class="font-size-sm mt-2 text-dark">Autumn vibe</div>
+                      <div class="font-merriweather font-size-xs text-gray-600 mt-1 font-italic">Our beautiful jeans</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">LTR Version</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Theme docs
+              </a>
+              <div class="dropdown-menu dropdown-menu-right text-right px-4" role="menu">
+                <a class="dropdown-item d-flex align-items-center border-bottom border-gray-100 p-2" href="../../docs/index.html">
+                  <span class="svg-icon text-purple ml-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-m</title><path d="M160,389a20.91,20.91,0,0,1-13.82-5.2l-128-112a21,21,0,0,1,0-31.6l128-112a21,21,0,0,1,27.66,31.61L63.89,256l109.94,96.19A21,21,0,0,1,160,389Z"/><path d="M352,389a21,21,0,0,1-13.84-36.81L448.11,256,338.17,159.81a21,21,0,0,1,27.66-31.61l128,112a21,21,0,0,1,0,31.6l-128,112A20.89,20.89,0,0,1,352,389Z"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Documentation</p>
+                    <span class="text-secondary">Setup and customization</span>
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center border-bottom border-gray-100 p-2" href="../../docs/changelog.html">
+                  <span class="svg-icon text-purple ml-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-j</title><path d="M256,256s-48-96-126-96c-54.12,0-98,43-98,96s43.88,96,98,96c30,0,56.45-13.18,78-32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/><path d="M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-29.37,0-56.66,13.75-78,32" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Changelog</p>
+                    <span class="text-secondary">See all updates</span>
+                  </span>
+                </a>
+                <a class="dropdown-item d-flex align-items-center p-2" href="mailto:support@cedarthemes.com">
+                  <span class="svg-icon text-purple ml-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-e</title><path d="M256,80A176,176,0,1,0,432,256,176,176,0,0,0,256,80Z" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"/><path d="M200,202.29s.84-17.5,19.57-32.57C230.68,160.77,244,158.18,256,158c10.93-.14,20.69,1.67,26.53,4.45,10,4.76,29.47,16.38,29.47,41.09,0,26-17,37.81-36.37,50.8S251,281.43,251,296" style="fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px"/><circle cx="250" cy="348" r="20"/></svg>
+                  </span>
+                  <span>
+                    <p class="mb-0">Support</p>
+                    <span class="text-secondary">Get help when needed</span>
+                  </span>
+                </a>
+              </div>
+            </li>
+
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Breadcrumbs & Sorting -->
+  <section class="mt-3 mt-lg-5 fx-fade-in">
+    <div class="container-fluid px-lg-5">
+      <div class="row">
+        <div class="col-md-auto">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Women</a></li>
+              <li class="breadcrumb-item active">Handbags</li>
+            </ol>
+          </nav>
+        </div>
+
+        <div class="col-md-auto d-flex align-items-center mt-2 mt-md-0 mr-md-auto">
+          <span style="width: 100px;">Sort by:</span>
+          <select class="form-select mr-2">
+            <option>Best selling</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>A-Z</option>
+            <option>Z-A</option>
+            <option>Oldest to Newest</option>
+            <option>Newest to Oldest</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-4 fx-fade-in">
+    <div class="container-fluid px-lg-5">
+      <div class="row">
+        <div class="col-md-3 col-lg-2 text-right mb-5 mb-md-0">
+          <!-- Sidebar -->
+          <!-- for mobile (sm) only -->
+          <aside class="pt-2 d-block d-md-none">
+            <a href="#collapseCategories" class="d-block rounded text-dark text-decoration-none bg-light px-3 py-2" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCategories">
+              Categories
+              <i class="fas fa-chevron-down collapse-icon fa-xs float-right mt-2"></i>
+            </a>
+
+            <div id="collapseCategories" class="collapse mt-4 px-2">
+              <div class="row">
+                <div class="col-6">
+                  <a class="d-block text-gray-600 text-uppercase font-size-xs">
+                    Clothing
+                  </a>
+                  <div class="pl-3 pt-2">
+                    <a href="#" class="text-dark d-block mb-2">T-shirts</a>
+                    <a href="#" class="text-dark d-block mb-2">Jackets</a>
+                    <a href="#" class="text-dark d-block mb-2">Jeans</a>
+                    <a href="#" class="text-dark d-block">Shorts</a>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <a class="d-block text-gray-600 text-uppercase font-size-xs">
+                    Shoes
+                  </a>
+                  <div class="pl-3 pt-2">
+                    <a href="#" class="text-dark d-block mb-2">Trainers</a>
+                    <a href="#" class="text-dark d-block mb-2">Boots</a>
+                    <a href="#" class="text-dark d-block mb-2">Sports wear</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#collapseRatings" class="d-block rounded text-dark text-decoration-none bg-light px-3 py-2 mt-3" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseRatings">
+              Ratings
+              <i class="fas fa-chevron-down collapse-icon fa-xs float-right mt-2"></i>
+            </a>
+
+            <div id="collapseRatings" class="collapse mt-4 px-2">
+              <a href="#" class="d-block text-warning text-decoration-none mb-1">
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <span class="text-dark font-size-sm ml-1">(7)</span>
+              </a>
+              <a href="#" class="d-block text-warning text-decoration-none mb-1">
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <span class="text-dark font-size-sm ml-1">(13)</span>
+              </a>
+              <a href="#" class="d-block text-warning text-decoration-none mb-1">
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <span class="text-dark font-size-sm ml-1">(18)</span>
+              </a>
+              <a href="#" class="d-block text-warning text-decoration-none mb-1">
+                <i class="fas fa-star fa-xs"></i>
+                <i class="fas fa-star fa-xs"></i>
+                <span class="text-dark font-size-sm ml-1">(9)</span>
+              </a>
+            </div>
+          </aside>
+
+          <!-- for tablets (md) and up -->
+          <aside class="position-sticky d-none d-md-block pt-2" style="top: 20px;">
+            <h5 class="text-dark mb-4">
+              Categories
+            </h5>
+
+            <div class="mb-4">
+              <a class="d-block text-gray-600 text-uppercase font-size-xs" data-toggle="collapse" href="#clothing">
+                Clothing
+              </a>
+              <div class="collapse show pl-3 pt-2" id="clothing">
+                <a href="#" class="text-dark d-block mb-2">T-shirts</a>
+                <a href="#" class="text-dark d-block mb-2">Jackets</a>
+                <a href="#" class="text-dark d-block mb-2">Jeans</a>
+                <a href="#" class="text-dark d-block">Shorts</a>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <a class="d-block text-gray-600 text-uppercase font-size-xs" data-toggle="collapse" href="#shoes">
+                Shoes
+              </a>
+              <div class="collapse show pl-3 pt-2" id="shoes">
+                <a href="#" class="text-dark d-block mb-2">Trainers</a>
+                <a href="#" class="text-dark d-block mb-2">Boots</a>
+                <a href="#" class="text-dark d-block mb-2">Sports wear</a>
+              </div>
+            </div>
+
+            <h5 class="text-dark mt-5 mb-3">
+              Ratings
+            </h5>
+
+            <a href="#" class="d-block text-warning text-decoration-none mb-1">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <span class="text-dark font-size-sm ml-1">(7)</span>
+            </a>
+
+            <a href="#" class="d-block text-warning text-decoration-none mb-1">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <span class="text-dark font-size-sm ml-1">(13)</span>
+            </a>
+
+            <a href="#" class="d-block text-warning text-decoration-none mb-1">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <span class="text-dark font-size-sm ml-1">(18)</span>
+            </a>
+
+            <a href="#" class="d-block text-warning text-decoration-none mb-1">
+              <i class="fas fa-star fa-xs"></i>
+              <i class="fas fa-star fa-xs"></i>
+              <span class="text-dark font-size-sm ml-1">(9)</span>
+            </a>
+          </aside>
+
+        </div>
+
+        <div class="col-md-9 col-lg-10">
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <span class="badge bg-info text-uppercase-bold-sm rounded-0 position-absolute top-0 left-0">
+                  Sale
+                </span>
+                <img src="../../assets/img/ecommerce/p-10.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Handmade Bag
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-decoration-line-through text-muted font-size-sm ml-2">
+                  $619.99
+                </span>
+                <span class="text-success">from $429.99</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <img src="../../assets/img/ecommerce/p-2.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Professional Camera
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-success">$349.99</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <img src="../../assets/img/ecommerce/p-3.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Winter boots
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-success">$145.00</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <span class="badge bg-info text-uppercase-bold-sm rounded-0 position-absolute top-0 left-0">
+                  20% off
+                </span>
+                <img src="../../assets/img/ecommerce/p-4.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Autumn Bundle kit
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-decoration-line-through text-muted font-size-sm ml-2">
+                  $319.99
+                </span>
+                <span class="text-success">from $210.00</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <img src="../../assets/img/ecommerce/p-5.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Long sleeve shirt
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-success">$140.00</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <img src="../../assets/img/ecommerce/p-6.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Converse shoes
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-success">$79.99</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <span class="badge bg-info text-uppercase-bold-sm rounded-0 position-absolute top-0 left-0">
+                  Sale
+                </span>
+                <img src="../../assets/img/ecommerce/p-7.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Sun glasses
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-decoration-line-through text-muted font-size-sm ml-2">
+                  $219.99
+                </span>
+                <span class="text-success">from $145.00</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0 mb-5">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <span class="badge bg-info text-uppercase-bold-sm rounded-0 position-absolute top-0 left-0">
+                  30% off
+                </span>
+                <img src="../../assets/img/ecommerce/p-8.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Skating shoes
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-decoration-line-through text-muted font-size-sm ml-2">
+                  $319.99
+                </span>
+                <span class="text-success">from $139.99</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+
+          <!-- Product -->
+          <div class="row g-0">
+            <div class="col-3 col-lg-2 position-relative">
+              <a href="product.html" class="d-block hover-lift-light">
+                <img src="../../assets/img/ecommerce/p-9.jpeg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="col-9 text-right pr-4">
+              <div class="d-flex flex-wrap align-items-center mt-xl-3">
+                <a href="product.html" class="h5 text-dark">
+                  Vintage shoes
+                </a>
+                <a href="#" class="icon-circle icon-circle-sm bg-pastel-purple mr-auto" data-toggle="tooltip" title="Add to my wishlist">
+                  <i class="fas fa-heart fa-xs text-purple"></i>
+                </a>
+              </div>
+              <div class="text-warning fa-xs">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="mt-2">
+                <span class="text-success">$89.99</span>
+              </div>
+              <a href="#!" class="btn btn-pistachio mt-2">
+                Add to cart
+              </a>
+              <div class="text-gray-700 d-none d-md-block mt-4">
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years...
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mt-6">
+            <li class="page-item">
+              <a href="#" class="page-link">&laquo; Prev</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item active">
+              <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">4</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">Next &raquo;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banners -->
+  <section class="mt-8">
+    <div class="row g-0">
+      <!-- Banner -->
+      <div class="col-md-6">
+        <a href="#" class="hover-mask h-150 h-md-200">
+          <span class="hover-mask-image" style="background-image:url('../../assets/img/ecommerce/b-1.jpeg');">
+          </span>
+          <span class="hover-mask-content opacity-100 d-flex align-items-center justify-content-center overlay overlay-darkblue overlay-20">
+            <span class="hover-mask-content-down text-white h3 position-relative">
+              Catalog Spring 2020
+            </span>
+          </span>
+        </a>
+      </div>
+
+      <!-- Banner -->
+      <div class="col-md-6">
+        <a href="#" class="hover-mask h-150 h-md-200">
+          <span class="hover-mask-image" style="background-image:url('../../assets/img/ecommerce/b-2.jpeg');">
+          </span>
+          <span class="hover-mask-content opacity-100 d-flex align-items-center justify-content-center overlay overlay-darkblue overlay-20">
+            <span class="hover-mask-content-down text-white h3 position-relative">
+              Offers 20% to 50% off
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer footer-light bg-light">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md">
+          <h6 class="footer-header mb-4 pb-md-2">
+            Inertia
+          </h6>
+          <a href="#" class="footer-link">
+            Landing pages
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Blog pages
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Ecommerce layout
+          </a>
+        </div>
+
+        <div class="col-12 col-md mt-5 mt-md-0">
+          <h6 class="footer-header mb-4 pb-md-2">
+            Company
+          </h6>
+          <a href="#" class="footer-link">
+            Contact Us
+          </a>
+          <a href="#" class="footer-link mt-2">
+            About
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Careers
+          </a>
+        </div>
+
+        <div class="col-12 col-md mt-5 mt-md-0">
+          <h6 class="footer-header mb-4 pb-md-2">
+            Products
+          </h6>
+          <a href="#" class="footer-link">
+            Theme Landings
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Theme Support
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Theme Documentation
+          </a>
+        </div>
+
+        <div class="col-12 col-md mt-5 mt-md-0">
+          <h6 class="footer-header mb-4 pb-md-2">
+            Resources
+          </h6>
+          <a href="#" class="footer-link">
+            My Account
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Branding Resources
+          </a>
+        </div>
+
+        <div class="col-12 col-md mt-5 mt-md-0">
+          <h6 class="footer-header mb-4 pb-md-2">
+            Support
+          </h6>
+          <a href="#" class="footer-link">
+            Frequently Asked Questions
+          </a>
+          <a href="#" class="footer-link mt-2">
+            Email Us
+          </a>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mt-6">
+        <a href="#" class="hover-lift-light text-decoration-none mx-2">
+          <span class="icon-circle footer-social-icon">
+            <i class="fab fa-twitter fa-lg"></i>
+          </span>
+        </a>
+        <a href="#" class="hover-lift-light text-decoration-none mx-2">
+          <span class="icon-circle footer-social-icon">
+            <i class="fab fa-facebook-square fa-lg"></i>
+          </span>
+        </a>
+        <a href="#" class="hover-lift-light text-decoration-none mx-2">
+          <span class="icon-circle footer-social-icon">
+            <i class="fab fa-github fa-lg"></i>
+          </span>
+        </a>
+        <a href="#" class="hover-lift-light text-decoration-none mx-2">
+          <span class="icon-circle footer-social-icon">
+            <i class="fab fa-dribbble fa-lg"></i>
+          </span>
+        </a>
+      </div>
+
+      <div class="mt-6">
+        <p class="footer-text mb-2">
+          All rights reserved. © 2020.
+        </p>
+        <div class="d-flex justify-content-center">
+          <a href="#" class="footer-text mx-3">
+            Privacy & terms
+          </a>
+          <a href="#" class="footer-text mx-3">
+            Terms of service
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <p class="footer-text text-uppercase font-weight-bold">
+          Made with love from
+        </p>
+        <div class="footer-brand">
+          <svg width="115px" height="21px" viewBox="0 0 115 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M0.43,20 L0.43,1.046 L4.075,1.046 L4.075,20 L0.43,20 Z M22.896,1.046 L26.514,1.046 L26.514,20.027 L25.677,20.27 L14.256,8.741 L14.256,20 L10.665,20 L10.665,1.019 L11.502,0.776 L22.896,12.305 L22.896,1.046 Z M36.479,16.922 L44.93,16.922 L44.93,20 L32.834,20 L32.834,1.046 L44.66,1.046 L44.66,4.124 L36.479,4.124 L36.479,8.849 L43.229,8.849 L43.229,11.927 L36.479,11.927 L36.479,16.922 Z M63.589,7.094 C63.589,9.578 62.023,11.549 60.241,12.44 L65.101,20 L60.673,20 L56.677,13.466 C55.867,13.547 55.057,13.574 54.139,13.493 L54.139,20 L50.494,20 L50.494,1.208 C59.458,-0.331 63.589,2.423 63.589,7.094 Z M54.139,4.232 L54.139,10.334 C58.108,10.739 59.836,9.254 59.836,7.04 C59.836,5.015 58,3.638 54.139,4.232 Z M82.194,1.046 L82.194,4.124 L76.875,4.124 L76.875,20 L73.23,20 L73.23,4.124 L67.938,4.124 L67.938,1.046 L82.194,1.046 Z M87.38,20 L87.38,1.046 L91.025,1.046 L91.025,20 L87.38,20 Z M99.775,20 L95.725,20 L104.5,0.857 L105.769,0.857 L114.49,20 L110.467,20 L109.036,16.922 L101.206,16.922 L99.775,20 Z M105.121,7.796 L102.502,13.898 L107.713,13.898 L105.121,7.796 Z" fill="currentColor"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT
+  ============================================-->
+
+  <!-- Comment the following line if you prefer vendors broken down -->
+  <script src="../../assets/js/vendor.min.js"></script>
+
+  <!-- Uncomment these lines if you prefer vendors broken down -->
+  <!-- <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+  <script src="../../assets/vendor/pikaday/pikaday.js"></script>
+  <script src="../../assets/vendor/jquery.elevateZoom/jquery.elevateZoom.min.js"></script>
+  <script src="../../assets/vendor/smooth-scroll/smooth-scroll.min.js"></script>
+  <script src="../../assets/vendor/aos/aos.js"></script>
+  <script src="../../assets/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="../../assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+  <script src="../../assets/vendor/jarallax/dist/jarallax-element.min.js"></script>
+  <script src="../../assets/vendor/zoomerang/zoomerang.js"></script>
+  <script src="../../assets/vendor/swiper/swiper.min.js"></script>
+  <script src="../../assets/vendor/highlight/highlight.min.js"></script>
+  <script src="../../assets/vendor/atvImg/atvImg-min.js"></script> -->
+
+
+  <!-- Main Theme file -->
+  <script src="../../assets/js/theme.min.js"></script>
+
+</body>
+</html>
